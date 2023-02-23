@@ -1,0 +1,31 @@
+<html>  
+<body>  
+<script>  
+const number1 = parseFloat(prompt ('Enter the first number: '));  
+const operator = prompt('Enter operator to perform the calculation ( which is either +, -, * or / ): ');  
+const number2 = parseFloat(prompt ('Enter the second number: '));  
+  
+let result;
+if (operator == '+')
+{ 
+    sum = number1 + number2;  
+	window.alert(""+number1+ "+ "+number2+ "=  " + sum);
+}  
+else if (operator == '-')
+{  
+    difference = number1 - number2;  
+	window.alert(""+number1+ "- "+number2+ "=  " + difference);
+}  
+else if (operator == '*')
+{ 
+    multiplication = number1 * number2; 
+	window.alert(""+number1+ "* "+number2+ "=  " + multiplication);	
+}  
+else
+{  
+    division  = number1 / number2;  
+	window.alert(""+number1+ "/ "+number2+ "=  " + division);
+}  
+</script>  
+<body>  
+</html>  
